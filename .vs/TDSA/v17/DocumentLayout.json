@@ -1,12 +1,45 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\TDSA\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{393E838B-3898-482C-8AFE-F34CA92A04DA}|TDSA\\TDSA.csproj|d:\\dev\\tdsa\\tdsa\\cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{393E838B-3898-482C-8AFE-F34CA92A04DA}|TDSA\\TDSA.csproj|solutionrelative:tdsa\\cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.aspx",
+              "DocumentMoniker": "D:\\Dev\\TDSA\\TDSA\\Cliente.aspx",
+              "RelativeDocumentMoniker": "TDSA\\Cliente.aspx",
+              "ToolTip": "D:\\Dev\\TDSA\\TDSA\\Cliente.aspx",
+              "RelativeToolTip": "TDSA\\Cliente.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-28T05:35:17.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

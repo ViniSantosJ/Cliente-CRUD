@@ -43,7 +43,6 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="ATIVO">
                     <ItemTemplate>
-<%--                        <asp:Label ID="lblAtivo" runat="server" Text='<%# Convert.ToBoolean(Eval("CliAtivo")) ? "S" : "N" %>'></asp:Label>--%>
                         <asp:CheckBox ID="chkAtivoView" runat="server" Checked='<%# Convert.ToBoolean(Eval("CliAtivo")) %>' Enabled="false"></asp:CheckBox>
                     </ItemTemplate>
                     <EditItemTemplate>
