@@ -20,10 +20,10 @@
                     <asp:TextBox ID="txtPesquisa" class="form-control" placeholder="Nome" runat="server" MaxLength="200"></asp:TextBox>
                 </th>
                 <th>
-                    <asp:Button ID="btnPesquisar" class="btn btn-primary" runat="server" Text="Pesquisar" OnClick="btnPesquisar_Click" />
+                    <asp:Button ID="btnPesquisar" class="btn btn-primary" runat="server" Text="Pesquisar" OnClick="btnPesquisar_Click" CausesValidation="false" />
                 </th>
                 <th>
-                    <asp:Button ID="btnInserir" class="btn btn-primary" runat="server" Text="Inserir" OnClick="btnInserir_Click" />
+                    <asp:Button ID="btnInserir" class="btn btn-primary" runat="server" Text="Inserir" OnClick="btnInserir_Click" CausesValidation="false" />
                 </th>
             </tr>
         </table>
@@ -52,12 +52,12 @@
                 <asp:BoundField DataField="CliDataNascimento" HeaderText="NASCIMENTO" ReadOnly="true" DataFormatString="{0:dd/MM/yyyy}" HtmlEncode="False" />
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:LinkButton ID="btnEditar" runat="server" CommandName="Edit" Text="Editar" class="btn btn-warning" />
-                        <asp:LinkButton ID="btnExcluir" runat="server" CommandName="Delete" Text="Excluir" OnClientClick="return confirmDelete();" class="btn btn-danger" />
+                        <asp:LinkButton ID="btnEditar" runat="server" CommandName="Edit" Text="Editar" class="btn btn-warning" CausesValidation="false" />
+                        <asp:LinkButton ID="btnExcluir" runat="server" CommandName="Delete" Text="Excluir" OnClientClick="return confirmDelete();" class="btn btn-danger" CausesValidation="false" />
                     </ItemTemplate>
                     <EditItemTemplate>
                         <asp:LinkButton ID="lnkAtualizar" runat="server" CommandName="Update" Text="Salvar" class="btn btn-success" />
-                        <asp:LinkButton ID="lnkCancelar" runat="server" CommandName="Cancel" Text="Cancelar" class="btn btn-light" />
+                        <asp:LinkButton ID="lnkCancelar" runat="server" CommandName="Cancel" Text="Cancelar" class="btn btn-light" CausesValidation="false" />
                     </EditItemTemplate>
                 </asp:TemplateField>
             </Columns>
